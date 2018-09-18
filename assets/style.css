@@ -1,0 +1,22 @@
+html{
+    height:100%;
+    background-color:#ff7171;
+}
+
+body{
+    background-color:#ff7171 !important;
+}
+
+button{
+    margin-bottom:2rem;
+}
+
+.jumbotron{
+    background-color:skyblue;
+    border-bottom:black solid 3px;
+}
+
+.table{
+    background-color:white;
+}
+

@@ -47,7 +47,6 @@ database.ref("Trains").orderByChild("dateAdded").on("child_added", function(snap
     var minutesRemaining = frequency - partial
     var nextArrival = ""
 
-    //not sure how to make this round up since Math.ceil doesnt't seem to work wrapped around this
     var firstRemaining = Math.ceil(moment(firstMoment).diff(now,"minutes"))
 
     if(now.isBefore(firstMoment)){
